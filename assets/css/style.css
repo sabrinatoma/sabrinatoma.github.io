@@ -1662,3 +1662,84 @@ form .btn input[type="submit"]{
   color: #fff;
   text-decoration: none;
 }
+
+
+/*--------------------------------------------------------------
+# Cart
+--------------------------------------------------------------*/
+
+.cart-page{
+  margin: 80px auto;
+  width: max-content;
+  
+}
+
+.table{
+  width: 100%;
+  border-collapse: collapse;
+}
+.cart-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+th{
+  text-align: left;
+  font-size: 18px;
+  padding: 5px;
+  color: #fff;
+  background: #2e98b3;
+  font-weight: normal;
+}
+
+th{
+  padding: 10px 25px;
+}
+td{
+  padding: 10px;
+}
+
+td input{
+  width: 50px;
+  height: 30px;
+  padding: 5px;
+}
+
+td p{
+  font-size: 30px;
+  color: #0d4961;
+}
+
+td h3{
+  font-size: 30px;
+}
+
+td a{
+  color: #269cc0;
+  font-size: 15px;
+}
+
+td img{
+  width: 120px;
+  height: 180px;
+  margin-right: 10px;
+}
+
+.total-price{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.total-price table{
+  border-top: 3px solid #3bd8ff;
+  width: 100%;
+  max-width: 300px;
+}
+
+td:last-child{
+  text-align: right;
+}
+th:last-child{
+  text-align: right;
+}
+
